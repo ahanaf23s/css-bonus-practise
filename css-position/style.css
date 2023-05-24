@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    margin: 5px;
+    border:1px solid tomato;
+}
+.box2{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+.box3{
+    position: relative;
+    z-index: 1;
+}
