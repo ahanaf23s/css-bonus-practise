@@ -6,6 +6,10 @@
 .photo img{
   width: 100%;
 }
+.photo-frame:hover .photo img{
+    transform: shew(30deg);
+    transition: transform 4s;
+}
 .photo-frame{
     border:10px solid goldenrod;
     border-radius: 20px;
@@ -13,6 +17,7 @@
     height: 200px;
     position: relative;
     margin: 10px;
+    overflow: hidden;
 }
 .photo-detail{
     position: absolute;
@@ -22,7 +27,7 @@
     display: none;
 }
 .photo-frame:hover .photo-detail{
-   display: block;
+   /* display: block; */
    background-color: #d3bc82;
 
 }
